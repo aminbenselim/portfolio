@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio website",
+  "main": "index.js",
+  "repository": "https://github.com/amine-benselim/portfolio.git",
+  "author": "Amine Benselim",
+  "license": "MIT",
+  "scripts": {
+    "lite": "lite-server port 10000",
+    "start": "yarn run lite" 
+  },
+  "dependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
